@@ -1,0 +1,27 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+.con{
+  background-color: #0B5823;
+  width: 400px;
+  height: 350px;
+  font-weight: bolder;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+
+}
+button{
+  color: #016f32;
+  background-color: goldenrod;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: none;
+  font-size: 18px;
+}
+#yes-el{
+  margin-top: 2px;
+}
