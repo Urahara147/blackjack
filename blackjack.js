@@ -24,7 +24,7 @@ function startGame(param) {
   
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
-let cards = [firstCard, secondCard]  
+cards = [firstCard, secondCard]  
 
 sum = firstCard + secondCard
   
@@ -59,10 +59,3 @@ cards.push(card)
 renderGame()
 
 }
-// function newGame(param) {
-
-//   sumEl.textContent = "sum: "
-// cardsEl.textContent = "cards: "
-// sum = 0
-// }
-console.log(cards)
