@@ -11,4 +11,6 @@ document.getElementById('btn1').addEventListener('click', function() {
 function save(param) {
 let saveEl = document.getElementById("nap");
 saveEl.textContent += " " + count
+count = 0
+countEl.innerText = count;
 }
