@@ -3,7 +3,7 @@ let count = 0;
 
 document.getElementById('btn').addEventListener('click', function() {
     count += 1;
-    countEl.textContent = count;
+    countEl.innerText = count;
 });
 
 document.getElementById('btn1').addEventListener('click', function() {
@@ -12,5 +12,11 @@ function save(param) {
 let saveEl = document.getElementById("nap");
 saveEl.textContent += " " + count
 count = 0
-countEl.textContent = count;
+countEl.innerText = count;
+}
+function reset(param) {
+let saveEl = document.getElementById("nap");
+saveEl.textContent = "previous enteries: "
+count = 0
+countEl.innerText = count;
 }
